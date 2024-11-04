@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Livraria Online</h1>
+    </header>
+    
+    <main>
+        <section id="livros">
+            <h2>Livros Disponíveis</h2>
+            <div class="livro" data-id="1">
+                <h3>O Alquimista</h3>
+                <p>Autor: Paulo Coelho</p>
+                <p>Preço: R$ 29,90</p>
+                <button class="comprar">Comprar</button>
+            </div>
+            <div class="livro" data-id="2">
+                <h3>1984</h3>
+                <p>Autor: George Orwell</p>
+                <p>Preço: R$ 39,90</p>
+                <button class="comprar">Comprar</button>
+            </div>
+            <!-- Adicione mais livros conforme necessário -->
+        </section>
+        
+        <section id="carrinho">
+            <h2>Carrinho</h2>
+            <ul id="itens-carrinho"></ul>
+            <p id="total">Total: R$ 0,00</p>
+            <button id="finalizar-compra">Finalizar Compra</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
